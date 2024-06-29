@@ -1,0 +1,158 @@
+title: SMP Negeri 8 Balikpapan
+author:
+  name: smpn8balikpapan
+  email: smpn8@smpn8balikpapan.sch.id
+
+# The `>` after `description:` means to ignore line-breaks until next key.
+# If you want to omit the line-break after the end of text, use `>-` instead.
+description: >
+  SMPN 8 adalah sekolah Menengah Pertama manjadi sekolah Adiwiyata Mandiri
+  dan Sekolah Penggerak, 
+  dilengkapi dengan tenaga pendidik berpengalaman dan 
+  metode pembelajaran inovatif.
+
+sambutan: >
+  Selamat datang di website SMPN 8 Balikpapan, sekolah yang memiliki visi Beriman dan bertaqwa, berprestasi, berbudaya dan cinta lingkungan
+  Kami sangat berkomitmen untuk memberikan pendidikan terbaik bagi para siswa kami dengan 
+  fasilitas yang memadai dan tenaga pendidik yang berpengalaman. Kami percaya bahwa setiap 
+  siswa memiliki potensi yang luar biasa dan kami akan terus bekerja keras untuk membantu mereka 
+  mengejar mimpi mereka. Terima kasih sudah mengunjungi website kami dan kami berharap dapat bekerja 
+  sama untuk membangun masa depan yang lebih baik bagi generasi muda.
+
+logo: /images/lgo.PNG
+logofooter: /images/logobg4.png
+icon: /images/logobg.png
+
+alamat: Jl. Mulawarman Rt.54 No 14 Manggar Balikpapan Timur
+email: smpn8@smpn8balikpapan.sch.id
+phone: "(0542) 761902"
+
+menus:
+  - title: Home
+    link: /
+  - title: Berita
+    link: /category/berita
+  - title: Tabloit
+    link: https://s.id/smpn8bpn
+  - title: Jadwal
+    link: "#jadwal"
+    submenus: 
+      - title: Siswa
+        link: /pages/jadwal-siswa
+      - title: Guru
+        link: /pages/jadwal-guru
+  - title: Profil
+    link: /pages/profil
+  - title: PPDB
+    link: /pages/ppdb
+  - title: Aplikasi
+    link: https://cbt.smpn8balikpapan.sch.id/
+
+submenu:
+  - title: Instagram
+    link: "https://www.instagram.com/?hl=id"
+    icon: /images/sosmed/ig.png
+  - title: Facebook
+    link: "https://id-id.facebook.com/"
+    icon: /images/sosmed/ig.png
+  - title: Youtube
+    link: "https://www.youtube.com/"
+    icon: /images/sosmed/twitter.png
+  - title: Whatsapp
+    link: "https://web.whatsapp.com/%F0%9F%8C%90/id"
+    icon: /images/sosmed/wa.png
+  - title: Alumni
+    link: "#"
+    icon: /images/alumni.png
+  - title: Akademik
+    link: "#"
+    icon: /images/calendar.png
+  - title: PPDB
+    link: "#"
+    icon: /images/admission.png
+
+sliders:
+  - title: SMPN 8 Balikpapan
+    text: Selamat Datang
+    image: /gallery/WhatsApp%20Image%202023-02-15%20at%2010.20.19.jpeg
+    link: /category/berita
+    linktext: INFO TERBARU 
+  - title: SMPN 8 Balikpapan
+    text: Selamat Datang
+    image: /gallery/WhatsApp%20Image%202023-02-15%20at%2015.26.30.jpeg
+    link: /category/berita
+    linktext: INFO TERBARU
+  - title: SMPN 8 Balikpapan
+    text: Selamat Datang
+    image: /gallery/ftkarate.JPG
+    link: /category/berita
+    linktext: INFO TERBARU
+
+galleries:
+  - title: Foto 1
+    img: /gallery/WhatsApp%20Image%202023-02-15%20at%2010.20.19.jpeg
+  - title: Foto 2
+    img: /gallery/WhatsApp%20Image%202023-02-15%20at%2015.26.30.jpeg
+  - title: Foto 3
+    img: /gallery/foto (3).jpeg
+  - title: Foto 4
+    img: /gallery/foto (4).jpeg
+
+jekyll-archives:
+  enabled: all
+  layout: archive
+  permalinks:
+    year: '/:year/'
+    month: '/:year/:month/'
+    day: '/:year/:month/:day/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
+
+show_excerpts: true
+
+# Build settings
+
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+
+copyright: © copyright 2023 smpn8balikpapan
+
+# Theme-specific settings
+
+minima:
+  # Minima date format.
+  # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
+  #
+  # date_format: "%b %-d, %Y"
+
+  # Generate social links in footer.
+  #
+  # social_links:
+  #   - { platform: devto,          user_url: "https://dev.to/jekyll" }
+  #   - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
+  #   - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
+  #   - { platform: flickr,         user_url: "https://www.flickr.com/photos/jekyll" }
+  #   - { platform: github,         user_url: "https://github.com/jekyll/minima" }
+  #   - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ" }
+  #   - { platform: instagram,      user_url: "https://www.instagram.com/jekyll" }
+  #   - { platform: keybase,        user_url: "https://keybase.io/jekyll" }
+  #   - { platform: linkedin,       user_url: "https://www.linkedin.com/in/jekyll" }
+  #   - { platform: microdotblog,   user_url: "https://micro.blog/jekyll" }
+  #   - { platform: pinterest,      user_url: "https://www.pinterest.com/jekyll" }
+  #   - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/1234567/jekyll" }
+  #   - { platform: telegram,       user_url: "https://t.me/jekyll" }
+  #   - { platform: twitter,        user_url: "https://twitter.com/jekyllrb" }
+  #   - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
+# If you want to link only specific pages in your header, uncomment this and add the path to the pages in
+# order as they should show up.
+#
+# header_pages:
+#   - about.md
+
+# Set to `true` to show excerpts on the homepage.
+#
+# show_excerpts: false
