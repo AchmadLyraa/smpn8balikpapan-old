@@ -1,7 +1,8 @@
 title: SMP Negeri 8 Balikpapan
-author:
-  name: smpn8balikpapan
-  email: smpn8@smpn8balikpapan.sch.id
+author: Wasis S.H
+name: smpn8balikpapan
+email: smpn8@smpn8balikpapan.sch.id
+baseurl: "smpn8balikpapan-old"
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
@@ -31,7 +32,7 @@ menus:
   - title: Home
     link: /
   - title: Berita
-    link: /category/berita
+    link: /pages/berita
   - title: Tabloit
     link: https://s.id/smpn8bpn
   - title: Jadwal
@@ -74,17 +75,17 @@ submenu:
 sliders:
   - title: SMPN 8 Balikpapan
     text: Selamat Datang
-    image: /gallery/WhatsApp%20Image%202023-02-15%20at%2010.20.19.jpeg
+    image: smpn8balikpapan-old/gallery/WhatsApp%20Image%202023-02-15%20at%2010.20.19.jpeg
     link: /category/berita
     linktext: INFO TERBARU 
   - title: SMPN 8 Balikpapan
     text: Selamat Datang
-    image: /gallery/WhatsApp%20Image%202023-02-15%20at%2015.26.30.jpeg
+    image: smpn8balikpapan-old/gallery/WhatsApp%20Image%202023-02-15%20at%2015.26.30.jpeg
     link: /category/berita
     linktext: INFO TERBARU
   - title: SMPN 8 Balikpapan
     text: Selamat Datang
-    image: /gallery/ftkarate.JPG
+    image: smpn8balikpapan-old/gallery/ftkarate.JPG
     link: /category/berita
     linktext: INFO TERBARU
 

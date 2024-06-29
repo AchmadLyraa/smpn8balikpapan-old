@@ -16,7 +16,7 @@
       </div>
       <div class="col-md-6">
         <div class="full">
-          <img src="images/img2.png" alt="#" />
+          <img src="{{ site.baseurl }}/images/img2.png" alt="#" />
         </div>
       </div>
     </div>
@@ -47,7 +47,7 @@
                   {% assign i = i | plus: 1 %}
                   <div class="col-lg-3 col-md-3 col-sm-12">
                     <div class="full blog_img_popular">
-                      <img class="img-responsive" src="{{ post.img }}" alt="#" />
+                      <img class="img-responsive" src="{{ post.img | relative_url}}" alt="#" />
                       <p><a href="{{ post.url | relative_url }}">{{ post.title }}-{{i | modulo:1}}</a></p>
                     </div>
                   </div>
@@ -90,7 +90,7 @@
       {% for gallery in site.galleries %}
       <div class="col-md-3">
         <div class="full blog_img_popular">
-          <a href="{{ gallery.img }}" target="_blank"><img class="img-responsive" src="{{gallery.img}}" alt="#" /></a>
+          <a href="{{ site.baseurl }}{{ gallery.img }}" target="_blank"><img class="img-responsive" src="{{ site.baseurl }}{{gallery.img}}" alt="#" /></a>
           <h4>{{gallery.title}}</h4>
         </div>
       </div>

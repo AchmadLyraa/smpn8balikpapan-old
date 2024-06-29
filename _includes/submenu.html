@@ -7,8 +7,8 @@
           <ul>
             {% for menu in site.submenu %}
               <li>
-                <a href="{{menu.link}}">
-                  <span class="icon"><img src="{{menu.icon}}" alt="#" /></span>
+                <a href="{{ site.baseurl }}{{menu.link}}">
+                  <span class="icon"><img src="{{ site.baseurl }}{{menu.icon}}" alt="#" /></span>
                   <span>{{menu.title}}</span>
                 </a>
               </li>
